@@ -10,32 +10,29 @@ body {
 
 h1, ul, p, h2, h3 {
   margin: 0;
+  padding: 0;
 }
 
-.container {
-    width: 1280px;
-    margin: 0 auto;
+@media all and (min-width: 0) and (max-width: 767px) {
+    .container {
+        padding: 0;
+    }
 }
 
 header {
     background-color: #445162;
+    padding: 50px;
 }
 
 .main-header {
-    float: left;
     text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
     color: #ffffff;
     font-size: 60px;
     font-weight: 400;
-    padding-left: 50px;
-    padding-top: 35px;
 }
 
 .header-list {
-    float: left;
     list-style: inside url("images/check_icon.png");
-    padding: 50px;
-    padding-top: 35px;
 }
 
 .header-list li {
@@ -47,8 +44,7 @@ header {
 }
 
 .header-img {
-    float: right;
-    padding: 50px;
+    width: 100%;
 }
 
 header::after {
