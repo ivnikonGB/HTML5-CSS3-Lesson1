@@ -116,8 +116,6 @@ header::after {
 }
 
 .dignity-list li {
-    /* float: left; */
-    /* width: calc(100% - 8px); */
     background: url(images/plus_icon.gif) no-repeat left 5px;
     padding-left: 40px;
     box-sizing: border-box;
@@ -215,18 +213,8 @@ header::after {
 }
 
 .reviews-item {
-    /* float: left;
-    width: calc(50% - 8px); */
     margin-bottom: 30px;
 }
-
-/* .reviews-item:nth-child(even) {
-    margin-left: 8px;
-}
-
-.reviews-item:nth-child(odd) {
-    margin-right: 8px;
-} */
 
 .reviews-image {
     float: left;
@@ -243,9 +231,7 @@ header::after {
 
 .reviews-comment {
     position: relative;
-    /* float: right; */
     background-color: #ebebeb;
-    /* width: 434px; */
     padding: 16px;
 }
 
@@ -304,11 +290,7 @@ header::after {
 
 @media (min-width: 992px) {
     .buy-list {
-        /* margin: 0 auto;
-        padding: 0; */
-        
         flex-direction: row;
-        /* width: 990px; */
         justify-content: space-between;
         align-items: flex-end;
     }
@@ -397,15 +379,6 @@ footer::after {
     margin-bottom: 31px;
 }
 
-.footer-content {
-    /* width: 800px;
-    margin: 0 auto; */
-}
-
-.footer-form {
-    /* float: left; */
-}
-
 .footer-form input:not([type="submit"]), .footer-form textarea {
     width: 100%;
     border-radius: 4px;
@@ -435,10 +408,6 @@ footer::after {
     outline: none;
     text-transform: uppercase;
   }
-
-.footer-contacts {
-    /* float: right; */
-}
 
 .footer-contacts p {
     color: #ffffff;
